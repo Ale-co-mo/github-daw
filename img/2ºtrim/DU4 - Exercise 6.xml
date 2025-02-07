@@ -1,0 +1,17 @@
+<!DOCTYPE booklist [
+    <!ELEMENT booklist (book)+>
+    <!ELEMENT book (bookname*,author+,price?,homepage)>
+    <!ELEMENT bookname (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT homepage (#PCDATA)>
+]>
+
+<booklist>
+    <book>
+        <bookname>hola</bookname>
+        <author>caracola</author>
+        <price>12</price>   
+        <homepage>732</homepage>
+    </book>
+</booklist>
