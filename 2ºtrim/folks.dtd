@@ -1,0 +1,6 @@
+<!ELEMENT folks (person*)>
+<!ELEMENT person (name)>
+<!ATTLIST person likes IDREFS #IMPLIED>
+<!ATTLIST person pin ID #IMPLIED>
+<!ATTLIST person friend IDREF #IMPLIED>
+<!ELEMENT name (#PCDATA)>

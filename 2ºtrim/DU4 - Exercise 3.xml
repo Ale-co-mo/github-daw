@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE message SYSTEM "email.dtd">
+
+<message>
+
+   <from>segio@gmail.com</from>
+
+   <to>mauro@gmail.com</to>
+
+   <to>alejandra@edu.xunta.gal</to>
+
+   <subject>Hola caracola</subject>
+
+   <attachment>D:\photos\aaaa.jpg</attachment>
+
+   <attachment>D:\docs\eeee.odt</attachment>
+
+   <attachment>D:\fotos\iiii.jpg</attachment>
+
+</message>
