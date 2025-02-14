@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE message [
     <!ELEMENT library (book, journal, misc)>
-    <!ELEMENT book (tittle, editor, publisher)>
-    <!ELEMENT journale (title, volume, nuber)>
+    <!ELEMENT book (title, editor, publisher)>
+    <!ELEMENT journal (title, volume, number)>
     <!ELEMENT misc (author, tittle, year, pages)>
     <!ATTLIST book id ID #REQUIRED>
+    <!ATTLIST journal id ID #REQUIRED>
+    <!ATTLIST misc id ID #REQUIRED>
 
 ]>
 

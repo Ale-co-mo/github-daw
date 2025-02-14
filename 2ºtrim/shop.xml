@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE countries [
+    <!ELEMENT shop (products, customer, sale)>
+    <!ELEMENT products (product,title,manufactured,model,price,stock,reconditioned)>
+    <!ELEMENT customer (card, firstname, surnames, tlf, address)>
+    <!ELEMENT sale (soldproducts, totalprice, currency)>
+    <!ATTLIST product id ID #REQUIRED>
+    <!ATTLIST customer id ID #REQUIRED>
+    <!ATTLIST sale date ID #REQUIRED>
+    <!ATTLIST sale customer IDREF #REQUIRED>
+    <!ATTLIST customer datecreation CDATA #REQUIRED>
+    <!ATTLIST product currency CDATA #REQUIRED>
+    <!ATTLIST product discount CDATA "0">
+    <!ATTLIST product VAT CDATA #REQUIRED>
+    <!ATTLIST product EAN CDATA #IMPLIED>
+    <!ATTLIST sale productid IDREF #REQUIRED>
+    <!ATTLIST sale quantity CDATA #IMPLIED>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT manufactured (#PCDATA)>
+    <!ELEMENT model (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT stock (#PCDATA)>
+    <!ELEMENT reconditioned EMPTY>
+    <!ELEMENT card (#PCDATA)>
+    <!ELEMENT firstname (#PCDATA)>
+    <!ELEMENT surnames (#PCDATA)>
+    <!ELEMENT tlf (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT soldproducts (#PCDATA)>
+    <!ELEMENT totalprice (#PCDATA)>
+    <!ELEMENT currency (#PCDATA)>
+]>
+
+<shop>
+    <products>
+        <product id='producto1' currency="" discount="" VAT="" EAN="">
+            <title></title>
+            <manufactured></manufactured>
+            <model></model>
+            <price></price>
+            <stock></stock>
+            <reconditioned/>
+        </product>
+    </products>
+    <customer id="customer1" datecreation="">
+        <card></card>
+        <firstname></firstname>
+        <surnames></surnames>
+        <tlf></tlf>
+        <address></address>
+    </customer>
+    <sale date="sale1" customer="customer1" productid="producto1" quantity="">
+        <soldproducts></soldproducts>
+        <totalprice></totalprice>
+        <currency></currency>
+    </sale>
+</shop>
