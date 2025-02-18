@@ -1,0 +1,16 @@
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="shiporder1.xsd" id="order1">
+    <orderperson>saiodj</orderperson>
+    <shipto>
+        <name>Pepito</name>
+        <address>Santiago de chile</address>
+        <city>Santiago de Compostela</city>
+        <country>Santiago de Compostela</country>
+    </shipto>
+    <item>
+        <title>HOLA</title>
+        <note>AAAA</note>
+        <quantity>1000</quantity>
+        <price>1523.5</price>
+    </item>
+</shiporder>
