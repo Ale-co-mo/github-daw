@@ -1,0 +1,33 @@
+<purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="purchaseOrder.xsd" orderdate="">
+    <shipTo country="US">
+        <name></name>
+        <street></street>
+        <city></city>
+        <state></state>
+        <zip>1</zip>
+    </shipTo>
+    <billTo country="US">
+        <name></name>
+        <street></street>
+        <city></city>
+        <state></state>
+        <zip>4</zip>
+    </billTo>
+    <comment></comment>
+    <items>
+        <item partNum="235-HO">
+            <productName></productName>
+            <quantity>1</quantity>
+            <UsPrice>100</UsPrice>
+            <shipDate>2002-09-24</shipDate>
+        </item>
+        <item partNum="900-HQ">
+            <productName></productName>
+            <quantity>1</quantity>
+            <USPrice>20</USPrice>
+            <shipDate>2002-09-24</shipDate>
+            <comment>Important</comment>
+        </item>
+    </items>
+</purchaseOrder>
