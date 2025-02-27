@@ -1,0 +1,12 @@
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="items.xsd">
+    <item>
+        <name>Sergio</name>
+        <photo></photo>
+        <tags> Silva</tags>
+        <diameter> 2</diameter>
+        <weight>3</weight>
+        <price>22.3</price>
+        <size>Big</size>
+    </item>
+</items>
